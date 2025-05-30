@@ -1,0 +1,19 @@
+# Git 情報
+.git
+.gitignore
+
+# 環境変数ファイル
+.env
+
+# ローカル依存
+client/node_modules
+server/node_modules
+
+# ビルド成果物
+client/dist
+server/build
+
+# ログ / 一時ファイル
+*.log
+server/tmp
+client/cache
